@@ -351,7 +351,9 @@ animation: button 0.5s ease-in-out forwards;
 .navbar{
     padding-left: 0%;
 }
-
+.nav-items i{
+    text-align: end;
+}
 }
 
 @media (max-width:768px){
@@ -370,10 +372,13 @@ animation: button 0.5s ease-in-out forwards;
      width: 250px;
     height: 30px;
     border-radius: 50px;
+    
 }
 .main-input{
     padding: 20px;
+    padding-left: 65px;
 }
+   
 .search-icon{
     display: none;
 }
@@ -384,18 +389,22 @@ animation: button 0.5s ease-in-out forwards;
 
 @media (max-width:768px){
     .main-2{
-        padding-left: 20px;
-        /* flex-direction: column; */
+        /* padding-left: 20px; */
+        flex-direction: column;
+        align-items: center;
     }
     .trending{
-        padding-left:70px ;
+        /* padding-left:70px ; */
+        text-align: center;
     }
     .cards{
-        padding-left: 30px;
+        padding-left: 20px;
     flex-direction: column;
+    /* align-items: center; */
+    
     }
     .cards p{
-        text-align: left;
+        text-align: center;
     
     }
 
@@ -403,17 +412,20 @@ animation: button 0.5s ease-in-out forwards;
 
 @media (max-width:768px){
 .main-3{
-    padding-left: 30px;
+    /* padding-left: 30px; */
+    /* align-items: center; */
 }
 .main-3 h2{
-    margin-left: 50px;
+    /* margin-left: 50px; */
+text-align: center;
 }
 .cards-2{
 padding-left: 30px;
 flex-direction: column;
+align-items: center;
 }
 .cards-2 p{
-        text-align: left;
+        text-align: center;
 
 }
 }
